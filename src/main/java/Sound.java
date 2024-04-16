@@ -42,7 +42,7 @@ public class Sound
     int i = 0;
     while(samples[i]==0)
       i++;
-    int [] var = new int [samples-i+1];
+    int [] var = new int [samples-i];
     for(int two = 0; i < samples.length; two++) {
         var[two] = samples[i];
         i++;
